@@ -1,0 +1,944 @@
+[
+  {
+    "id": "c-sin-1",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which pattern involves a class responsible for creating its own single instance?",
+    "options": ["Singleton", "Prototype", "Builder", "Factory"],
+    "answer": "Singleton"
+  },
+  {
+    "id": "c-sin-2",
+    "type": "mc",
+    "category": "Creational",
+    "question": "In the Singleton pattern, what is the visibility of the constructor typically set to?",
+    "options": ["Private", "Public", "Protected", "Package-private"],
+    "answer": "Private"
+  },
+  {
+    "id": "c-sin-3",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which of the following is a common drawback of the Singleton pattern?",
+    "options": ["It introduces global state which hinders testing", "It creates too many objects", "It requires complex inheritance", "It cannot be used in multithreaded apps"],
+    "answer": "It introduces global state which hinders testing"
+  },
+  {
+    "id": "c-sin-4",
+    "type": "mc",
+    "category": "Creational",
+    "question": "How do clients access the instance of a Singleton class?",
+    "options": ["Via a static method", "By calling new Singleton()", "Via a global variable", "By cloning an existing object"],
+    "answer": "Via a static method"
+  },
+  {
+    "id": "c-sin-5",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which of these is a valid use case for a Singleton?",
+    "options": ["Managing a connection pool", "Creating a user profile", "Defining a strategy", "Iterating a list"],
+    "answer": "Managing a connection pool"
+  },
+
+  {
+    "id": "c-fm-1",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which pattern defines an interface for creating objects but lets subclasses decide which class to instantiate?",
+    "options": ["Factory Method", "Abstract Factory", "Builder", "Prototype"],
+    "answer": "Factory Method"
+  },
+  {
+    "id": "c-fm-2",
+    "type": "mc",
+    "category": "Creational",
+    "question": "The Factory Method promotes loose coupling by eliminating the need to bind application-specific classes into the code. What principle does this support?",
+    "options": ["Open/Closed Principle", "Single Responsibility Principle", "Interface Segregation", "Liskov Substitution"],
+    "answer": "Open/Closed Principle"
+  },
+  {
+    "id": "c-fm-3",
+    "type": "mc",
+    "category": "Creational",
+    "question": "In the Factory Method pattern, the 'Creator' class declares the factory method. What does this method return?",
+    "options": ["A Product interface/object", "A void", "A boolean", "The Creator instance"],
+    "answer": "A Product interface/object"
+  },
+  {
+    "id": "c-fm-4",
+    "type": "mc",
+    "category": "Creational",
+    "question": "If you have a Logistics app that handles Trucks and Ships, which pattern helps you create the right transport object without changing the main logic?",
+    "options": ["Factory Method", "Singleton", "Facade", "Adapter"],
+    "answer": "Factory Method"
+  },
+  {
+    "id": "c-fm-5",
+    "type": "mc",
+    "category": "Creational",
+    "question": "True or False: The Factory Method pattern relies on inheritance to solve the problem of creating objects.",
+    "options": ["True", "False", "Only in Java", "Only in C++"],
+    "answer": "True"
+  },
+
+  {
+    "id": "c-af-1",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes?",
+    "options": ["Abstract Factory", "Factory Method", "Builder", "Prototype"],
+    "answer": "Abstract Factory"
+  },
+  {
+    "id": "c-af-2",
+    "type": "mc",
+    "category": "Creational",
+    "question": "You need to create UI components (Button, Checkbox) that look different on Windows vs. Mac. Which pattern is best?",
+    "options": ["Abstract Factory", "Strategy", "Decorator", "Adapter"],
+    "answer": "Abstract Factory"
+  },
+  {
+    "id": "c-af-3",
+    "type": "mc",
+    "category": "Creational",
+    "question": "What is the key difference between Factory Method and Abstract Factory?",
+    "options": ["Factory Method creates one product; Abstract Factory creates families of products", "Factory Method is structural; Abstract Factory is behavioral", "Factory Method uses composition; Abstract Factory uses inheritance", "There is no difference"],
+    "answer": "Factory Method creates one product; Abstract Factory creates families of products"
+  },
+  {
+    "id": "c-af-4",
+    "type": "mc",
+    "category": "Creational",
+    "question": "In Abstract Factory, how does the client code interact with the factories?",
+    "options": ["Through abstract interfaces", "Through concrete classes", "Through static methods", "Through direct instantiation"],
+    "answer": "Through abstract interfaces"
+  },
+  {
+    "id": "c-af-5",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which is a disadvantage of the Abstract Factory pattern?",
+    "options": ["It is difficult to support new kinds of products", "It does not support families of objects", "It exposes concrete classes to the client", "It requires a Singleton"],
+    "answer": "It is difficult to support new kinds of products"
+  },
+
+  {
+    "id": "c-bui-1",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which pattern allows you to construct complex objects step by step?",
+    "options": ["Builder", "Prototype", "Adapter", "Bridge"],
+    "answer": "Builder"
+  },
+  {
+    "id": "c-bui-2",
+    "type": "mc",
+    "category": "Creational",
+    "question": "The Builder pattern is particularly useful when...",
+    "options": ["An object needs to be created with many optional parameters", "You need a single instance", "You need to traverse a collection", "You need to adapt an interface"],
+    "answer": "An object needs to be created with many optional parameters"
+  },
+  {
+    "id": "c-bui-3",
+    "type": "mc",
+    "category": "Creational",
+    "question": "In the Builder pattern, which class directs the construction process?",
+    "options": ["Director", "Manager", "Factory", "Product"],
+    "answer": "Director"
+  },
+  {
+    "id": "c-bui-4",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Does the Builder pattern allow you to produce different representations of an object using the same construction code?",
+    "options": ["Yes", "No", "Only in C#", "Only if the object is simple"],
+    "answer": "Yes"
+  },
+  {
+    "id": "c-bui-5",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Method chaining (e.g., `obj.setA().setB()`) is a common feature in which pattern?",
+    "options": ["Builder", "Observer", "Strategy", "Factory"],
+    "answer": "Builder"
+  },
+
+  {
+    "id": "c-pro-1",
+    "type": "mc",
+    "category": "Creational",
+    "question": "Which pattern is used to create a duplicate object or clone of the current object?",
+    "options": ["Prototype", "Singleton", "Factory", "State"],
+    "answer": "Prototype"
+  },
+  {
+    "id": "c-pro-2",
+    "type": "mc",
+    "category": "Creational",
+    "question": "When is the Prototype pattern most useful?",
+    "options": ["When object creation is expensive compared to cloning", "When you need a global instance", "When you need to iterate a list", "When you want to secure a class"],
+    "answer": "When object creation is expensive compared to cloning"
+  },
+  {
+    "id": "c-pro-3",
+    "type": "mc",
+    "category": "Creational",
+    "question": "In JavaScript, which built-in mechanism is closely related to the Prototype pattern?",
+    "options": ["Prototypal Inheritance", "Modules", "Promises", "Arrow Functions"],
+    "answer": "Prototypal Inheritance"
+  },
+  {
+    "id": "c-pro-4",
+    "type": "mc",
+    "category": "Creational",
+    "question": "What is the main method typically defined in the Prototype interface?",
+    "options": ["clone()", "build()", "execute()", "create()"],
+    "answer": "clone()"
+  },
+  {
+    "id": "c-pro-5",
+    "type": "mc",
+    "category": "Creational",
+    "question": "A 'Registry' of predefined prototypes is often used to...",
+    "options": ["Store frequently used objects to be cloned", "Keep track of singletons", "Manage database connections", "Sort algorithms"],
+    "answer": "Store frequently used objects to be cloned"
+  },
+
+  {
+    "id": "s-adp-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern acts as a wrapper to allow two incompatible interfaces to work together?",
+    "options": ["Adapter", "Bridge", "Proxy", "Composite"],
+    "answer": "Adapter"
+  },
+  {
+    "id": "s-adp-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "You have a legacy `OldSystem` class and a new `INewSystem` interface. Which pattern connects them?",
+    "options": ["Adapter", "Facade", "Decorator", "Strategy"],
+    "answer": "Adapter"
+  },
+  {
+    "id": "s-adp-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "The Adapter pattern is also known as...",
+    "options": ["Wrapper", "Decorator", "Container", "Placeholder"],
+    "answer": "Wrapper"
+  },
+  {
+    "id": "s-adp-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "What are the two main types of Adapters?",
+    "options": ["Object Adapter and Class Adapter", "Static Adapter and Dynamic Adapter", "Front Adapter and Back Adapter", "Single Adapter and Multi Adapter"],
+    "answer": "Object Adapter and Class Adapter"
+  },
+  {
+    "id": "s-adp-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which principle does the Adapter pattern help preserve when integrating legacy code?",
+    "options": ["Single Responsibility Principle", "Don't Repeat Yourself", "KISS", "YAGNI"],
+    "answer": "Single Responsibility Principle"
+  },
+
+  {
+    "id": "s-bri-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern splits a large class into two separate hierarchies: Abstraction and Implementation?",
+    "options": ["Bridge", "Adapter", "Composite", "Facade"],
+    "answer": "Bridge"
+  },
+  {
+    "id": "s-bri-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "If you have `Shape` (Circle, Square) and `Color` (Red, Blue) and want to avoid classes like `BlueCircle`, `RedSquare`, which pattern should you use?",
+    "options": ["Bridge", "Adapter", "Decorator", "Proxy"],
+    "answer": "Bridge"
+  },
+  {
+    "id": "s-bri-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "In the Bridge pattern, how are the Abstraction and Implementation connected?",
+    "options": ["Composition (The Abstraction contains the Implementation)", "Inheritance", "Static calls", "They are not connected"],
+    "answer": "Composition (The Abstraction contains the Implementation)"
+  },
+  {
+    "id": "s-bri-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "The Bridge pattern is best used to...",
+    "options": ["Decouple an abstraction from its implementation", "Connect incompatible interfaces", "Simplify a complex interface", "Add responsibilities dynamically"],
+    "answer": "Decouple an abstraction from its implementation"
+  },
+  {
+    "id": "s-bri-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which of these is a benefit of the Bridge pattern?",
+    "options": ["It allows independent extension of Abstraction and Implementation", "It ensures only one instance exists", "It provides a simple interface to a complex system", "It traverses collections easily"],
+    "answer": "It allows independent extension of Abstraction and Implementation"
+  },
+
+  {
+    "id": "s-cmp-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern allows you to compose objects into tree structures to represent part-whole hierarchies?",
+    "options": ["Composite", "Decorator", "Chain of Responsibility", "Bridge"],
+    "answer": "Composite"
+  },
+  {
+    "id": "s-cmp-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "The Composite pattern lets clients treat individual objects and compositions of objects...",
+    "options": ["Uniformly", "Differently", "Sequentially", "Randomly"],
+    "answer": "Uniformly"
+  },
+  {
+    "id": "s-cmp-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "A File System with Folders and Files is a classic example of which pattern?",
+    "options": ["Composite", "Flyweight", "Observer", "Memento"],
+    "answer": "Composite"
+  },
+  {
+    "id": "s-cmp-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "In the Composite pattern, what is the common interface for both Leaf and Composite (Container) nodes called?",
+    "options": ["Component", "Node", "Element", "Part"],
+    "answer": "Component"
+  },
+  {
+    "id": "s-cmp-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "What is a disadvantage of the Composite pattern?",
+    "options": ["It can make the design overly general", "It creates too many singletons", "It is hard to add new components", "It breaks the Open/Closed principle"],
+    "answer": "It can make the design overly general"
+  },
+
+  {
+    "id": "s-dec-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern attaches additional responsibilities to an object dynamically?",
+    "options": ["Decorator", "Bridge", "Adapter", "Composite"],
+    "answer": "Decorator"
+  },
+  {
+    "id": "s-dec-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "The Decorator pattern provides a flexible alternative to...",
+    "options": ["Subclassing", "Interfaces", "Static methods", "Global variables"],
+    "answer": "Subclassing"
+  },
+  {
+    "id": "s-dec-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "If you have a `Coffee` object and want to add `Milk` and `Sugar` dynamically, which pattern is best?",
+    "options": ["Decorator", "Builder", "Factory", "Flyweight"],
+    "answer": "Decorator"
+  },
+  {
+    "id": "s-dec-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "How does a Decorator hold a reference to the component it decorates?",
+    "options": ["Via Composition (HAS-A relationship)", "Via Inheritance (IS-A relationship)", "It doesn't hold a reference", "Via a static property"],
+    "answer": "Via Composition (HAS-A relationship)"
+  },
+  {
+    "id": "s-dec-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "True or False: A Decorator must have the same interface as the object it decorates.",
+    "options": ["True", "False", "Only in Java", "Only in Python"],
+    "answer": "True"
+  },
+
+  {
+    "id": "s-fac-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern provides a simplified interface to a library, a framework, or a complex set of classes?",
+    "options": ["Facade", "Adapter", "Bridge", "Proxy"],
+    "answer": "Facade"
+  },
+  {
+    "id": "s-fac-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "You want to start a computer which involves CPU, RAM, and HDD complex operations. You create a `Computer.start()` method to handle it. This is a...",
+    "options": ["Facade", "Decorator", "Strategy", "Observer"],
+    "answer": "Facade"
+  },
+  {
+    "id": "s-fac-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "What is the main goal of the Facade pattern?",
+    "options": ["To hide complexity", "To add behavior dynamically", "To create objects", "To traverse a list"],
+    "answer": "To hide complexity"
+  },
+  {
+    "id": "s-fac-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Does the Facade pattern prevent clients from accessing the underlying subsystem classes directly?",
+    "options": ["No, it just provides a convenient option", "Yes, it enforces strict encapsulation", "Yes, by making them private", "Only in C++"],
+    "answer": "No, it just provides a convenient option"
+  },
+  {
+    "id": "s-fac-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Difference between Adapter and Facade?",
+    "options": ["Adapter makes interfaces compatible; Facade simplifies an interface", "Adapter simplifies; Facade converts", "They are the same", "Adapter is behavioral; Facade is creational"],
+    "answer": "Adapter makes interfaces compatible; Facade simplifies an interface"
+  },
+
+  {
+    "id": "s-fly-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern is used to minimize memory usage by sharing as much data as possible with similar objects?",
+    "options": ["Flyweight", "Singleton", "Prototype", "Proxy"],
+    "answer": "Flyweight"
+  },
+  {
+    "id": "s-fly-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "In Flyweight, state that is shared between many objects (e.g., texture of a tree) is called...",
+    "options": ["Intrinsic state", "Extrinsic state", "Mutable state", "Global state"],
+    "answer": "Intrinsic state"
+  },
+  {
+    "id": "s-fly-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "In Flyweight, state that is unique to a specific object (e.g., coordinates of a tree) is called...",
+    "options": ["Extrinsic state", "Intrinsic state", "Shared state", "Static state"],
+    "answer": "Extrinsic state"
+  },
+  {
+    "id": "s-fly-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which application would benefit most from the Flyweight pattern?",
+    "options": ["A text editor displaying millions of characters", "A calculator", "A payment gateway", "A website login"],
+    "answer": "A text editor displaying millions of characters"
+  },
+  {
+    "id": "s-fly-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Immutability is key in Flyweight objects because...",
+    "options": ["They are shared by multiple clients", "They are Singletons", "They are abstract", "They are complex"],
+    "answer": "They are shared by multiple clients"
+  },
+
+  {
+    "id": "s-prx-1",
+    "type": "mc",
+    "category": "Structural",
+    "question": "Which pattern provides a surrogate or placeholder for another object to control access to it?",
+    "options": ["Proxy", "Facade", "Adapter", "Decorator"],
+    "answer": "Proxy"
+  },
+  {
+    "id": "s-prx-2",
+    "type": "mc",
+    "category": "Structural",
+    "question": "A `Virtual Proxy` is used for...",
+    "options": ["Lazy loading (creating expensive objects on demand)", "Security checks", "Logging", "Networking"],
+    "answer": "Lazy loading (creating expensive objects on demand)"
+  },
+  {
+    "id": "s-prx-3",
+    "type": "mc",
+    "category": "Structural",
+    "question": "A `Protection Proxy` is used for...",
+    "options": ["Controlling access rights", "Caching results", "Remote communication", "Data formatting"],
+    "answer": "Controlling access rights"
+  },
+  {
+    "id": "s-prx-4",
+    "type": "mc",
+    "category": "Structural",
+    "question": "How is Proxy different from Decorator?",
+    "options": ["Proxy controls access; Decorator adds behavior", "Proxy adds behavior; Decorator controls access", "They are identical", "Proxy is Creational"],
+    "answer": "Proxy controls access; Decorator adds behavior"
+  },
+  {
+    "id": "s-prx-5",
+    "type": "mc",
+    "category": "Structural",
+    "question": "In a Remote Proxy scenario, the proxy represents...",
+    "options": ["An object in a different address space", "A database connection", "A file on disk", "A user interface"],
+    "answer": "An object in a different address space"
+  },
+
+  {
+    "id": "b-chn-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern passes a request along a chain of handlers until one of them handles it?",
+    "options": ["Chain of Responsibility", "Command", "Mediator", "Iterator"],
+    "answer": "Chain of Responsibility"
+  },
+  {
+    "id": "b-chn-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A classic use case for Chain of Responsibility is...",
+    "options": ["Event bubbling in DOM", "Database connection pooling", "Cloning objects", "Parsing a grammar"],
+    "answer": "Event bubbling in DOM"
+  },
+  {
+    "id": "b-chn-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In Chain of Responsibility, does the client know which specific handler will process the request?",
+    "options": ["No, it sends the request to the first handler", "Yes, it selects the handler explicitly", "Yes, via a Mediator", "No, the request is broadcast to all"],
+    "answer": "No, it sends the request to the first handler"
+  },
+  {
+    "id": "b-chn-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "What happens if no handler in the chain processes the request?",
+    "options": ["The request falls off the end unhandled (unless a default is set)", "An error is always thrown", "The chain restarts", "The application crashes"],
+    "answer": "The request falls off the end unhandled (unless a default is set)"
+  },
+  {
+    "id": "b-chn-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which principle is strongly supported by decoupling the sender of a request from its receiver?",
+    "options": ["Single Responsibility Principle", "Open/Closed Principle", "Coupling Principle", "Interface Segregation"],
+    "answer": "Single Responsibility Principle"
+  },
+
+  {
+    "id": "b-cmd-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern encapsulates a request as an object, allowing you to parameterize clients with different requests?",
+    "options": ["Command", "Strategy", "Memento", "State"],
+    "answer": "Command"
+  },
+  {
+    "id": "b-cmd-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The Command pattern is key for implementing...",
+    "options": ["Undo/Redo functionality", "complex state machines", "Efficient memory usage", "Tree traversals"],
+    "answer": "Undo/Redo functionality"
+  },
+  {
+    "id": "b-cmd-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In the Command pattern, what role does the 'Invoker' play?",
+    "options": ["It triggers the command execution", "It defines the interface", "It performs the actual logic", "It creates the command"],
+    "answer": "It triggers the command execution"
+  },
+  {
+    "id": "b-cmd-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A 'Macro' (sequence of operations) can be easily implemented using which pattern?",
+    "options": ["Command", "Flyweight", "Singleton", "Proxy"],
+    "answer": "Command"
+  },
+  {
+    "id": "b-cmd-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which method is typically found in the Command interface?",
+    "options": ["execute()", "update()", "clone()", "visit()"],
+    "answer": "execute()"
+  },
+
+  {
+    "id": "b-itr-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern provides a way to access elements of a collection sequentially without exposing its underlying representation?",
+    "options": ["Iterator", "Composite", "Visitor", "Chain of Responsibility"],
+    "answer": "Iterator"
+  },
+  {
+    "id": "b-itr-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The main benefit of Iterator is...",
+    "options": ["It supports different traversal algorithms (DFS, BFS) for the same collection", "It makes the collection thread-safe", "It compresses the collection", "It sorts the collection automatically"],
+    "answer": "It supports different traversal algorithms (DFS, BFS) for the same collection"
+  },
+  {
+    "id": "b-itr-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In Java and C#, the `foreach` loop is a built-in support for which pattern?",
+    "options": ["Iterator", "Observer", "Strategy", "Template Method"],
+    "answer": "Iterator"
+  },
+  {
+    "id": "b-itr-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Does the Iterator pattern modify the underlying collection?",
+    "options": ["Generally no, it only traverses it", "Yes, it sorts it", "Yes, it filters it", "Yes, it adds elements"],
+    "answer": "Generally no, it only traverses it"
+  },
+  {
+    "id": "b-itr-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which two methods are common in an Iterator interface?",
+    "options": ["hasNext() and next()", "first() and last()", "add() and remove()", "start() and stop()"],
+    "answer": "hasNext() and next()"
+  },
+
+  {
+    "id": "b-med-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern restricts direct communication between objects and forces them to collaborate only via a central object?",
+    "options": ["Mediator", "Observer", "Proxy", "Facade"],
+    "answer": "Mediator"
+  },
+  {
+    "id": "b-med-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The Mediator pattern is useful for...",
+    "options": ["Reducing chaotic dependencies between components", "Adding security to an object", "Traversing trees", "Cloning complex objects"],
+    "answer": "Reducing chaotic dependencies between components"
+  },
+  {
+    "id": "b-med-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "An Air Traffic Control tower is a real-world analogy for which pattern?",
+    "options": ["Mediator", "Flyweight", "Bridge", "Strategy"],
+    "answer": "Mediator"
+  },
+  {
+    "id": "b-med-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "How does Mediator differ from Observer?",
+    "options": ["Mediator centralizes communication; Observer distributes it via subscription", "Mediator is structural; Observer is creational", "Mediator is for databases; Observer is for UI", "They are the same"],
+    "answer": "Mediator centralizes communication; Observer distributes it via subscription"
+  },
+  {
+    "id": "b-med-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "What is a potential downside of the Mediator pattern?",
+    "options": ["The Mediator can become a 'God Object'", "It creates too many subclasses", "It increases memory usage significantly", "It prevents unit testing"],
+    "answer": "The Mediator can become a 'God Object'"
+  },
+
+  {
+    "id": "b-mem-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern captures and externalizes an object's internal state so it can be restored later?",
+    "options": ["Memento", "Command", "State", "Prototype"],
+    "answer": "Memento"
+  },
+  {
+    "id": "b-mem-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The Memento pattern is strictly designed to avoid violating...",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "answer": "Encapsulation"
+  },
+  {
+    "id": "b-mem-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which actor in the Memento pattern is responsible for keeping the mementos safe?",
+    "options": ["Caretaker", "Originator", "History", "Proxy"],
+    "answer": "Caretaker"
+  },
+  {
+    "id": "b-mem-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A 'Save Game' feature is a classic example of...",
+    "options": ["Memento", "Factory", "Singleton", "Adapter"],
+    "answer": "Memento"
+  },
+  {
+    "id": "b-mem-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The object whose state is being saved is called the...",
+    "options": ["Originator", "Caretaker", "Saver", "Subject"],
+    "answer": "Originator"
+  },
+
+  {
+    "id": "b-obs-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern defines a one-to-many dependency where a state change in one object notifies all dependents?",
+    "options": ["Observer", "Mediator", "Chain of Responsibility", "Strategy"],
+    "answer": "Observer"
+  },
+  {
+    "id": "b-obs-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Also known as 'Pub/Sub' (Publish-Subscribe), this pattern is widely used in...",
+    "options": ["Event handling systems", "File compression", "Database transactions", "Sorting algorithms"],
+    "answer": "Event handling systems"
+  },
+  {
+    "id": "b-obs-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The object being observed is usually called the...",
+    "options": ["Subject", "Visitor", "Strategy", "Adapter"],
+    "answer": "Subject"
+  },
+  {
+    "id": "b-obs-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A potential issue with the Observer pattern is...",
+    "options": ["Memory leaks (Lapsed Listener problem)", "Inability to have multiple observers", "Tight coupling", "Impossible to test"],
+    "answer": "Memory leaks (Lapsed Listener problem)"
+  },
+  {
+    "id": "b-obs-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "When you subscribe to a YouTube channel, you are effectively becoming an...",
+    "options": ["Observer", "Adapter", "Decorator", "Iterator"],
+    "answer": "Observer"
+  },
+
+  {
+    "id": "b-sta-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern allows an object to alter its behavior when its internal state changes?",
+    "options": ["State", "Strategy", "Command", "Decorator"],
+    "answer": "State"
+  },
+  {
+    "id": "b-sta-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The State pattern allows an object to appear as if it...",
+    "options": ["Changed its class", "Created a clone", "Became a Singleton", "Deleted itself"],
+    "answer": "Changed its class"
+  },
+  {
+    "id": "b-sta-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "State pattern is often used to replace...",
+    "options": ["Massive switch/case statements", "For loops", "Database queries", "Recursion"],
+    "answer": "Massive switch/case statements"
+  },
+  {
+    "id": "b-sta-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A TCP Connection (Closed, Listen, Established) is a good candidate for...",
+    "options": ["State", "Memento", "Visitor", "Proxy"],
+    "answer": "State"
+  },
+  {
+    "id": "b-sta-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In the State pattern, who can trigger a state transition?",
+    "options": ["Both the Context and the Concrete States", "Only the Context", "Only the Client", "Only the Main method"],
+    "answer": "Both the Context and the Concrete States"
+  },
+
+  {
+    "id": "b-str-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable?",
+    "options": ["Strategy", "State", "Template Method", "Command"],
+    "answer": "Strategy"
+  },
+  {
+    "id": "b-str-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "You have a `Navigator` app that can calculate routes for Walking, Driving, or Cycling. Which pattern fits best?",
+    "options": ["Strategy", "Decorator", "Proxy", "Observer"],
+    "answer": "Strategy"
+  },
+  {
+    "id": "b-str-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "How is Strategy different from State?",
+    "options": ["Strategies are usually independent and unaware of each other", "State relies on inheritance", "Strategy is structural", "State is creational"],
+    "answer": "Strategies are usually independent and unaware of each other"
+  },
+  {
+    "id": "b-str-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In Strategy, the client usually passes the desired strategy to the...",
+    "options": ["Context", "Factory", "Singleton", "Adapter"],
+    "answer": "Context"
+  },
+  {
+    "id": "b-str-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The Strategy pattern favors...",
+    "options": ["Composition over Inheritance", "Inheritance over Composition", "Static methods over Instance methods", "Abstract classes over Interfaces"],
+    "answer": "Composition over Inheritance"
+  },
+
+  {
+    "id": "b-tmp-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern defines the skeleton of an algorithm in a superclass but lets subclasses override specific steps?",
+    "options": ["Template Method", "Strategy", "Factory Method", "Builder"],
+    "answer": "Template Method"
+  },
+  {
+    "id": "b-tmp-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The 'Hollywood Principle' (Don't call us, we'll call you) is often associated with...",
+    "options": ["Template Method", "Iterator", "Memento", "Singleton"],
+    "answer": "Template Method"
+  },
+  {
+    "id": "b-tmp-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In Template Method, the steps that must not be overridden are typically declared as...",
+    "options": ["Final", "Abstract", "Virtual", "Public"],
+    "answer": "Final"
+  },
+  {
+    "id": "b-tmp-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "How does Template Method differ from Strategy?",
+    "options": ["Template Method uses inheritance; Strategy uses composition", "Template Method uses composition; Strategy uses inheritance", "They are identical", "Strategy creates objects"],
+    "answer": "Template Method uses inheritance; Strategy uses composition"
+  },
+  {
+    "id": "b-tmp-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Hooks in Template Method allow subclasses to...",
+    "options": ["Optionally extend the algorithm at specific points", "Replace the entire algorithm", "Prevent the algorithm from running", "Change the return type"],
+    "answer": "Optionally extend the algorithm at specific points"
+  },
+
+  {
+    "id": "b-vis-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern lets you separate algorithms from the objects on which they operate?",
+    "options": ["Visitor", "Composite", "Iterator", "Strategy"],
+    "answer": "Visitor"
+  },
+  {
+    "id": "b-vis-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The Visitor pattern is useful when...",
+    "options": ["You need to perform operations on all elements of a complex object structure (like a tree)", "You need to create a complex object", "You need to filter a list", "You need to restrict access"],
+    "answer": "You need to perform operations on all elements of a complex object structure (like a tree)"
+  },
+  {
+    "id": "b-vis-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Double Dispatch is a technique centrally used in...",
+    "options": ["Visitor", "Singleton", "Factory", "Proxy"],
+    "answer": "Visitor"
+  },
+  {
+    "id": "b-vis-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In Visitor, the object structure (e.g., nodes in a graph) must implement a method commonly named...",
+    "options": ["accept()", "visit()", "execute()", "run()"],
+    "answer": "accept()"
+  },
+  {
+    "id": "b-vis-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A disadvantage of Visitor is...",
+    "options": ["It is hard to add new element classes to the object structure", "It is hard to add new operations", "It requires a database", "It is not thread-safe"],
+    "answer": "It is hard to add new element classes to the object structure"
+  },
+
+  {
+    "id": "b-int-1",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Which pattern defines a representation for a grammar along with an interpreter to interpret sentences?",
+    "options": ["Interpreter", "Command", "Mediator", "Template Method"],
+    "answer": "Interpreter"
+  },
+  {
+    "id": "b-int-2",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "The Interpreter pattern is most commonly used in...",
+    "options": ["Compilers, SQL parsers, and regex engines", "Web servers", "Image processing", "Physics engines"],
+    "answer": "Compilers, SQL parsers, and regex engines"
+  },
+  {
+    "id": "b-int-3",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "In Interpreter, each rule in the grammar is usually represented by...",
+    "options": ["A class", "A function", "A string", "A database table"],
+    "answer": "A class"
+  },
+  {
+    "id": "b-int-4",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "Terminal Expressions in the Interpreter pattern...",
+    "options": ["Are the leaf nodes of the syntax tree", "Are the root nodes", "Cannot be interpreted", "Are always loops"],
+    "answer": "Are the leaf nodes of the syntax tree"
+  },
+  {
+    "id": "b-int-5",
+    "type": "mc",
+    "category": "Behavioral",
+    "question": "A drawback of the Interpreter pattern is...",
+    "options": ["It can become inefficient and hard to maintain for complex grammars", "It cannot handle strings", "It requires multithreading", "It violates encapsulation"],
+    "answer": "It can become inefficient and hard to maintain for complex grammars"
+  }
+]

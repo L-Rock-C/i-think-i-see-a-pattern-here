@@ -9,7 +9,7 @@ const PatternSelection = (props) =>{
         <button onClick={onClick} className="text-slate-100 w-80 h-96 bg-slate-600 rounded-lg p-1">
             <div className={`transition duration-200 w-full h-full p-2 border-4 rounded flex flex-col items-center justify-start ${selectedBorder}`}>
                 <div className='text-2xl my-10'>{type}</div>
-                <div>{children}</div>
+                <div className='flex flex-col items-center'>{children}</div>
                 <div></div>
             </div>
         </button>
